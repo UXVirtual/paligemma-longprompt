@@ -1,5 +1,5 @@
-﻿git+https://github.com/huggingface/transformers
-pillow
+﻿pillow
 colorama
 bitsandbytes
+transformers
 accelerate
