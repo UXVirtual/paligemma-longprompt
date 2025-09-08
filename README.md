@@ -18,7 +18,7 @@ This model in it's current state does not succeed with that. It needs further tr
 # How to use
 1. Create a virtual environment
 2. Install the requirements
-3. Install torch with CUDA support: `pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu127`
+3. Install torch with CUDA support: `pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118`
 4. Add images that you want to caption to the /input/ folder
 5. Choose the level of quantization you want in the `inference.py` script. 4, 8 or None. 4 is very fast but worse quality. None is slow but higher quality.
 6. Run `py inference.py`
